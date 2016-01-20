@@ -1,0 +1,185 @@
+/* Szablon */
+.height-max{
+  height:100%;
+}
+
+.width-max{
+  width:100%;
+}
+
+.no-padding{
+  padding:0;
+}
+
+img.full-width{
+  width:100%;
+}
+
+/* Eof Szablon */
+
+body {
+/*  padding-top: 20px;
+  padding-bottom: 20px;*/           
+}
+
+/*.custom-navbar-bottom,.navbar-fixed-top, */
+.navbar {
+  margin-bottom: 0px;
+}
+
+.custom-navbar-bottom.affix {
+  position: fixed;
+  top: 0;
+  bottom:auto !important;
+  width: 100%;  
+}
+
+.custom-navbar-bottom {
+  bottom: 0;
+  position: absolute;
+  top: auto;
+  width: 100%;
+  z-index:10;
+}
+
+.container-fluid{
+  padding:0;
+}
+
+.full{
+  width:100%;
+  height:auto;
+}
+
+.square {
+  float:left;
+  position: relative;
+  width: 50%;
+  padding-bottom: 50%; /* = width for a 1:1 aspect ratio */
+  /*margin:1.66%;*/
+  overflow:hidden;  
+}
+
+.padding-top{
+  padding-top:50px;
+}
+
+.padding-bottom{
+  padding-bottom:50px;
+}
+
+.overlay{
+  background-position: right center;  
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index:1;    
+}
+
+.overlay-loop{
+  background-position: right center;  
+  background-repeat:repeat;
+  background-size: auto auto;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index:1;    
+}
+.image{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  right:0;
+  top:0;
+  width:100%;  
+}
+
+.parallax-fixed{
+  background-attachment:fixed;
+  background-size:cover;
+  position:static;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden
+}
+
+.parallax-intro{
+  background-position:center top
+}
+
+.relative{
+  position:relative;
+}
+
+.absolute{
+  position:absolute;
+}
+
+.content {
+  position:absolute;
+  height:100%;
+  width:100%;
+  /*padding: 10% 5%;*/
+}
+
+.table{
+  display:table;
+  width:100%;
+  height:100%;
+}
+.table-cell{
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.middle,
+.top,
+.bottom{
+  display:table;
+  width: 100%;
+  height: 100%;
+}
+.middle .content,
+.top .content,
+.bottom .content{
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+  position:relative;
+  z-index:1;  
+}
+.top .content{
+  vertical-align: top;  
+}
+.bottom .content{
+  vertical-align: bottom;  
+}
+
+/* CAROUSEL */
+.carousel,
+.carousel-inner{
+  height:100%;
+}
+
+.static-content-inner{
+  position:absolute;
+  z-index:9;
+}
+/* CAROUSEL */
+
+
+@media only screen and (max-width:768px){
+  .custom-navbar-bottom.affix-top{
+    top:0 !important;
+    bottom:auto  !important;
+    position:fixed;
+  }
+}
