@@ -171,6 +171,62 @@ body {
 }
 /* CAROUSEL */
 
+/* WP GALLERY */
+.gallery .gallery-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  float: left !important;
+  margin: 0px !important;  
+  border-bottom: 1px solid transparent;
+  border-right: 1px solid transparent;
+  box-sizing: border-box;
+}
+.gallery .gallery-item .gallery-icon {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: all 500ms ease;
+}
+.gallery .gallery-item .gallery-icon img {
+  transition: all 500ms ease;
+  border: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  display: block !important;
+  max-height: 100% !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+.gallery .gallery-item .gallery-caption {
+  transition: all 500ms ease;
+  box-sizing: border-box;
+  opacity: 1;
+  position: absolute;
+  background-color: #000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  color: #fff;
+  z-index: -1;
+}
+.gallery .gallery-item:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.gallery .gallery-item:hover .gallery-icon {
+  opacity: 0.3;
+}
+.gallery .gallery-item:hover .gallery-icon img {
+  transform: scale(1.1);
+}
+/* Eof WP GALLERY */
 
 @media only screen and (max-width:768px){
   .custom-navbar-bottom.affix-top{
