@@ -2,9 +2,6 @@
 //inicjalizacja biblioteki do wykrywania urządzeń mobilnych
 require_once(trailingslashit( get_template_directory() ).'lib/Mobile_Detect.php');
 
-//inicjalizacja biblioteki integracji bootstrap menu
-require_once(trailingslashit( get_template_directory() ).'lib/wp_bootstrap_navwalker.php');
-
 global $md;
 $md = new Mobile_Detect;
 ?>
