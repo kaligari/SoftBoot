@@ -18,11 +18,9 @@ img.full-width{
 /* Eof Szablon */
 
 body {
-/*  padding-top: 20px;
-  padding-bottom: 20px;*/           
+           
 }
 
-/*.custom-navbar-bottom,.navbar-fixed-top, */
 .navbar {
   margin-bottom: 0px;
 }
@@ -55,8 +53,7 @@ body {
   float:left;
   position: relative;
   width: 50%;
-  padding-bottom: 50%; /* = width for a 1:1 aspect ratio */
-  /*margin:1.66%;*/
+  padding-bottom: 50%; /* = width for a 1:1 aspect ratio */  
   overflow:hidden;  
 }
 
@@ -125,8 +122,7 @@ body {
 .content {
   position:absolute;
   height:100%;
-  width:100%;
-  /*padding: 10% 5%;*/
+  width:100%;  
 }
 
 .table{

@@ -70,12 +70,7 @@ $md = new Mobile_Detect;
                 'menu_class'        => 'nav navbar-nav',
               );
               wp_nav_menu($menu_defaults);
-            ?>
-            <!--<ul class="nav navbar-nav">              
-              <li><a href="#o-nas"><?php the_field('menu_type',134) ?></a></li>              
-              <li><a href="#oferta">Oferta</a></li>
-              <li><a href="#kontakt-mapa">Kontakt</a></li>
-            </ul>-->          
+            ?>            
           </div>		
       </div><!--/.container -->
     </nav>   
