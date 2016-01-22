@@ -5,11 +5,21 @@ WordPress Theme
 
 Required plugins:
 
- - Advanced Custom Fields
+ - Advanced Custom Fields  
+ - Lightbox Plus Colorbox 
+
+Additional plugins:
  - Advanced Page Manager
  - Better Delete Revision
- - Lightbox Plus Colorbox
  - Odnawianie miniaturek
  - WP Super Cache
+ - All In One SEO Pack
+ 
+Functionality:
+
+  - 4 col. widget footer
+  - Preloader
+  - WordPress tile gallery
+  - Fade In DOM Elements 
 
 > Written with [StackEdit](https://stackedit.io/).
