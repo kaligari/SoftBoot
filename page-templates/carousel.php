@@ -10,7 +10,7 @@
         image
         <?php the_field('image_parallax_type'); ?>"
         <?php endif; ?>
-      " data-ride="carousel"
+      data-ride="carousel"
       <?php if(get_field('carousel_autoplay')): ?>
       data-interval="<?php the_field('carousel_interval'); ?>"
       <?php else: ?>
@@ -42,15 +42,7 @@
           </div>
         </div>
       </div>
-      
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-<?php echo $post->post_name ?>" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-<?php echo $post->post_name ?>" data-slide-to="1"></li>
-        <li data-target="#carousel-<?php echo $post->post_name ?>" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-      
+            
       <?php   
           $args = array(
               'post_type'      => 'page',
@@ -59,10 +51,25 @@
               'order'          => 'ASC',
               'orderby'        => 'menu_order'
             );
-            
-            $i = 0;
+                        
             $carousel = new WP_Query( $args );
             
+            $carousel_item_count = $carousel->post_count;
+      
+            echo '<ol class="carousel-indicators">';
+                  
+            for($i=0;$i<$carousel_item_count;$i++)
+              if($i==0)
+                echo '<li data-target="#carousel-'.$post->post_name.'" data-slide-to="'.$i.'" class="active"></li>
+                ';
+              else                                                    
+                echo '<li data-target="#carousel-'.$post->post_name.'" data-slide-to="'.$i.'"></li>
+                ';
+            
+            echo '</ol><div class="carousel-inner" role="listbox">';
+                                          
+            $i = 0;
+                                    
             if ( $carousel->have_posts() ) : ?>
               <?php while ( $carousel->have_posts() ) : $carousel->the_post(); ?>
                 <?php if($i==0) $carousel_item_active = true; else $carousel_item_active = false;?>               
