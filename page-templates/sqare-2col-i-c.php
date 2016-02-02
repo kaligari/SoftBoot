@@ -1,1 +1,0 @@
-<?php /* Template Name: Square 2 Col. i-c */ ?>
