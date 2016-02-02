@@ -171,6 +171,16 @@ body {
 }
 /* CAROUSEL */
 
+/* WP CODES */
+
+.alignright{
+  float:right;
+}
+
+.alignleft{
+  float:left;
+}
+
 /* WP GALLERY */
 .gallery .gallery-item {
   position: relative;
