@@ -8,7 +8,7 @@
     <article class="unit"
     <?php if(get_field('height')) echo 'data-height="'.(get_field('height')/100).'"'; ?>
     >
-      <?php if(get_field('content_settings_fullwidth')): ?>
+      <?php if(get_field('fullwidth_fullwidth')): ?>
       <div class="container-fluid">
       <? else: ?>
       <div class="container">

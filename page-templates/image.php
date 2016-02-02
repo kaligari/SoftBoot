@@ -14,7 +14,7 @@
            style="background-image:url(<?php echo $image_overlay; ?>)"></div>
     <?php endif; ?>              
         
-    <div class="<?php the_field('image_content_position'); ?>">
+    <div class="<?php the_field('content_position_content_position'); ?>">
       <div class="content">  
       <?php if(get_field('fullwidth')): ?>
         <div class="container-fluid">

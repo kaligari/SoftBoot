@@ -31,7 +31,7 @@
            style="background-image:url(<?php echo $image_overlay; ?>)"></div>
     <?php endif; ?>
       
-      <div class="<?php the_field('image_content_position'); ?> static-content-inner">
+      <div class="<?php the_field('content_position_content_position'); ?> static-content-inner">
         <div class="content">          
           <div class="container">        
             <div class="row">
