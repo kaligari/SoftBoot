@@ -8,7 +8,7 @@ Required plugins:
  - Advanced Custom Fields  
  - Lightbox Plus Colorbox 
 
-Additional plugins:
+Additional required plugins:
  - Advanced Page Manager
  - Better Delete Revision
  - Odnawianie miniaturek
