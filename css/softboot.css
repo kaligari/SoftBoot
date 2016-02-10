@@ -8,7 +8,7 @@
 }
 
 .no-padding{
-  padding:0;
+  padding:0 !important;
 }
 
 img.full-width{
@@ -117,6 +117,26 @@ body {
   -moz-backface-visibility:hidden
 }
 
+.image-no-fullwidth:not(.parallax){
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}           
+
+.image-no-fullwidth.parallax{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-no-fullwidth.parallax-fixed{
+  background-attachment:fixed;
+  background-position: initial !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+}
+
 .parallax-intro{
   background-position:center top
 }
@@ -167,6 +187,29 @@ body {
 }
 .bottom .content{
   vertical-align: bottom;  
+}
+
+/* SQUARE BOX */
+.square-box:before{
+  padding-top:100%;
+  content:"";
+  display:block;
+}
+
+.square-box{
+  padding:0;
+}
+
+.square-box.image{
+  width:initial;
+}
+
+.square-box-inner{
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  padding:2%;
 }
 
 /* CAROUSEL */
@@ -248,10 +291,19 @@ body {
 }
 /* Eof WP GALLERY */
 
+@media only screen and (max-width:992px){
+  .image-no-fullwidth.parallax-fixed{
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:local; 
+  }
+}
+
 @media only screen and (max-width:768px){
   .custom-navbar-bottom.affix-top{
     top:0 !important;
     bottom:auto  !important;
     position:fixed;
-  }
+  }  
 }

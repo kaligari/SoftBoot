@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.4.1" created="2016-01-22 19:31" -->
+<!-- generator="WordPress/4.4.2" created="2016-02-10 12:43" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.1/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Szablon</title>
 	<link>http://softboot.ki.usermd.net</link>
 	<description>Kolejna witryna oparta na WordPressie</description>
-	<pubDate>Fri, 22 Jan 2016 19:31:06 +0000</pubDate>
+	<pubDate>Wed, 10 Feb 2016 12:43:11 +0000</pubDate>
 	<language></language>
 	<wp:wxr_version>1.1</wp:wxr_version>
 	<wp:base_site_url>http://softboot.ki.usermd.net</wp:base_site_url>
@@ -57,10 +57,6 @@
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>field_562757cad3f93</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_562757cad3f93";s:5:"label";s:30:"Fullwidth - pełna szerokość";s:4:"name";s:26:"content_settings_fullwidth";s:4:"type";s:10:"true_false";s:12:"instructions";s:101:"Określa, czy treść ma być rozciągnięta na pełną szerokość, czy też w układzie kolumnowym.";s:8:"required";s:1:"0";s:7:"message";s:20:"Fullwidth włączona";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_5659e85df48d6";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
 			<wp:meta_value><![CDATA[side]]></wp:meta_value>
 		</wp:postmeta>
@@ -74,19 +70,43 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_5659e498b53d3</wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:3:"key";s:19:"field_5659e498b53d3";s:5:"label";s:29:"Background color - kolor tła";s:4:"name";s:33:"content_settings_background_color";s:4:"type";s:12:"color_picker";s:12:"instructions";s:35:"Pozwala wybrać kolor tła modułu.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562757cad3f93";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:9:{s:3:"key";s:19:"field_5659e498b53d3";s:5:"label";s:29:"Background color - kolor tła";s:4:"name";s:33:"content_settings_background_color";s:4:"type";s:12:"color_picker";s:12:"instructions";s:35:"Pozwala wybrać kolor tła modułu.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562757cad3f93";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_5659e62fed1a6</wp:meta_key>
-			<wp:meta_value><![CDATA[a:9:{s:3:"key";s:19:"field_5659e62fed1a6";s:5:"label";s:25:"Text color - kolor tekstu";s:4:"name";s:27:"content_settings_text_color";s:4:"type";s:12:"color_picker";s:12:"instructions";s:37:"Pozwala wybrać kolor tekstu modułu.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562757cad3f93";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:9:{s:3:"key";s:19:"field_5659e62fed1a6";s:5:"label";s:25:"Text color - kolor tekstu";s:4:"name";s:27:"content_settings_text_color";s:4:"type";s:12:"color_picker";s:12:"instructions";s:37:"Pozwala wybrać kolor tekstu modułu.";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562757cad3f93";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:1;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_5659e85df48d6</wp:meta_key>
-			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_5659e85df48d6";s:5:"label";s:25:"Hide title - ukryj tytuł";s:4:"name";s:27:"content_settings_hide_title";s:4:"type";s:10:"true_false";s:12:"instructions";s:23:"Ukrywa główny tytuł.";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562757cad3f93";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_5659e85df48d6";s:5:"label";s:25:"Hide title - ukryj tytuł";s:4:"name";s:27:"content_settings_hide_title";s:4:"type";s:10:"true_false";s:12:"instructions";s:23:"Ukrywa główny tytuł.";s:8:"required";s:1:"0";s:7:"message";s:0:"";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562757cad3f93";s:8:"operator";s:2:"==";s:5:"value";s:1:"1";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:26:"page-templates/content.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-c-i.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-c.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-f.php";s:8:"order_no";i:0;s:8:"group_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-c-ca.php";s:8:"order_no";i:0;s:8:"group_no";i:4;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-ca-c.php";s:8:"order_no";i:0;s:8:"group_no";i:5;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:37:"page-templates/sqare-4col-c-c-c-c.php";s:8:"order_no";i:0;s:8:"group_no";i:6;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -179,10 +199,6 @@ Fixed – efekt zatrzymanego obrazka na warstwie w tle.";s:8:"required";s:1:"0";
 			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_562775f2fc422";s:5:"label";s:14:"Rodzaj warstwy";s:4:"name";s:18:"image_overlay_loop";s:4:"type";s:10:"true_false";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:7:"message";s:24:"Powtarza obrazek warstwy";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562773c2fc420";s:8:"operator";s:2:"==";s:5:"value";s:8:"parallax";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:3;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
-			<wp:meta_key>field_562776acfc423</wp:meta_key>
-			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_562776acfc423";s:5:"label";s:25:"Pozycja treści w obrazku";s:4:"name";s:22:"image_content_position";s:4:"type";s:6:"select";s:12:"instructions";s:51:"Gdzie ma się znajdować treść wewnątrz obrazka.";s:8:"required";s:1:"0";s:7:"choices";a:3:{s:3:"top";s:3:"Top";s:6:"middle";s:6:"Middle";s:6:"bottom";s:6:"Bottom";}s:13:"default_value";s:6:"middle";s:10:"allow_null";s:1:"1";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_562773c2fc420";s:8:"operator";s:2:"==";s:5:"value";s:8:"parallax";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:4;}]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
 			<wp:meta_key>position</wp:meta_key>
 			<wp:meta_value><![CDATA[side]]></wp:meta_value>
 		</wp:postmeta>
@@ -209,6 +225,26 @@ Fixed – efekt zatrzymanego obrazka na warstwie w tle.";s:8:"required";s:1:"0";
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:27:"page-templates/carousel.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-c-i.php";s:8:"order_no";i:0;s:8:"group_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-c.php";s:8:"order_no";i:0;s:8:"group_no";i:4;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-f.php";s:8:"order_no";i:0;s:8:"group_no";i:5;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-c-ca.php";s:8:"order_no";i:0;s:8:"group_no";i:6;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-ca-c.php";s:8:"order_no";i:0;s:8:"group_no";i:7;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -255,6 +291,14 @@ Fixed – efekt zatrzymanego obrazka na warstwie w tle.";s:8:"required";s:1:"0";
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:27:"page-templates/carousel.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-c-ca.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-ca-c.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -313,6 +357,30 @@ Fixed – efekt zatrzymanego obrazka na warstwie w tle.";s:8:"required";s:1:"0";
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:32:"page-templates/carousel-item.php";s:8:"order_no";i:0;s:8:"group_no";i:4;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-c-i.php";s:8:"order_no";i:0;s:8:"group_no";i:5;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-c.php";s:8:"order_no";i:0;s:8:"group_no";i:6;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-c-ca.php";s:8:"order_no";i:0;s:8:"group_no";i:7;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:34:"page-templates/sqare-2col-ca-c.php";s:8:"order_no";i:0;s:8:"group_no";i:8;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-f.php";s:8:"order_no";i:0;s:8:"group_no";i:9;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:37:"page-templates/sqare-4col-c-c-c-c.php";s:8:"order_no";i:0;s:8:"group_no";i:10;}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -413,6 +481,252 @@ Fixed – efekt zatrzymanego obrazka na warstwie w tle.";s:8:"required";s:1:"0";
 		<wp:postmeta>
 			<wp:meta_key>rule</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:4:"post";s:8:"operator";s:2:"==";s:5:"value";s:3:"134";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Fullwidth</title>
+		<link>http://softboot.ki.usermd.net/?acf=acf_fullwidth</link>
+		<pubDate>Tue, 02 Feb 2016 16:13:45 +0000</pubDate>
+		<dc:creator>szablon</dc:creator>
+		<guid isPermaLink="false">http://softboot.ki.usermd.net/?post_type=acf&#038;p=241</guid>
+		<wp:post_id>241</wp:post_id>
+		<wp:post_date>2016-02-02 17:13:45</wp:post_date>
+		<wp:post_date_gmt>2016-02-02 16:13:45</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_fullwidth</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_56b0d59136fb0</wp:meta_key>
+			<wp:meta_value><![CDATA[a:10:{s:3:"key";s:19:"field_56b0d59136fb0";s:5:"label";s:30:"Fullwidth - pełna szerokość";s:4:"name";s:19:"fullwidth_fullwidth";s:4:"type";s:10:"true_false";s:12:"instructions";s:101:"Określa, czy treść ma być rozciągnięta na pełną szerokość, czy też w układzie kolumnowym.";s:8:"required";s:1:"0";s:7:"message";s:20:"Fullwidth włączona";s:13:"default_value";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[side]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:26:"page-templates/content.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:37:"page-templates/sqare-4col-c-c-c-c.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Content position</title>
+		<link>http://softboot.ki.usermd.net/?acf=acf_content-position</link>
+		<pubDate>Tue, 02 Feb 2016 16:23:10 +0000</pubDate>
+		<dc:creator>szablon</dc:creator>
+		<guid isPermaLink="false">http://softboot.ki.usermd.net/?post_type=acf&#038;p=242</guid>
+		<wp:post_id>242</wp:post_id>
+		<wp:post_date>2016-02-02 17:23:10</wp:post_date>
+		<wp:post_date_gmt>2016-02-02 16:23:10</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_content-position</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_56b0d752a208f</wp:meta_key>
+			<wp:meta_value><![CDATA[a:12:{s:3:"key";s:19:"field_56b0d752a208f";s:5:"label";s:25:"Pozycja treści w obrazku";s:4:"name";s:33:"content_position_content_position";s:4:"type";s:6:"select";s:12:"instructions";s:51:"Gdzie ma się znajdować treść wewnątrz obrazka.";s:8:"required";s:1:"0";s:7:"choices";a:3:{s:3:"top";s:3:"Top";s:6:"middle";s:6:"Middle";s:6:"bottom";s:6:"Bottom";}s:13:"default_value";s:6:"middle";s:10:"allow_null";s:1:"1";s:8:"multiple";s:1:"0";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[side]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:27:"page-templates/carousel.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:32:"page-templates/carousel-item.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:24:"page-templates/image.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-c-i.php";s:8:"order_no";i:0;s:8:"group_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-c.php";s:8:"order_no";i:0;s:8:"group_no";i:4;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-f.php";s:8:"order_no";i:0;s:8:"group_no";i:5;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Content - 2nd</title>
+		<link>http://softboot.ki.usermd.net/?acf=acf_content-2nd</link>
+		<pubDate>Tue, 02 Feb 2016 18:34:49 +0000</pubDate>
+		<dc:creator>szablon</dc:creator>
+		<guid isPermaLink="false">http://softboot.ki.usermd.net/?post_type=acf&#038;p=285</guid>
+		<wp:post_id>285</wp:post_id>
+		<wp:post_date>2016-02-02 19:34:49</wp:post_date>
+		<wp:post_date_gmt>2016-02-02 18:34:49</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_content-2nd</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_56b0f69f0540b</wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_56b0f69f0540b";s:5:"label";s:11:"Treść - 2";s:4:"name";s:19:"content_2nd_content";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:7:"toolbar";s:4:"full";s:12:"media_upload";s:3:"yes";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-c-i.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-c.php";s:8:"order_no";i:0;s:8:"group_no";i:1;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:33:"page-templates/sqare-2col-i-f.php";s:8:"order_no";i:0;s:8:"group_no";i:2;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:37:"page-templates/sqare-4col-c-c-c-c.php";s:8:"order_no";i:0;s:8:"group_no";i:3;}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Content - 3rd</title>
+		<link>http://softboot.ki.usermd.net/?acf=acf_content-3rd</link>
+		<pubDate>Wed, 10 Feb 2016 12:20:14 +0000</pubDate>
+		<dc:creator>szablon</dc:creator>
+		<guid isPermaLink="false">http://softboot.ki.usermd.net/?post_type=acf&#038;p=321</guid>
+		<wp:post_id>321</wp:post_id>
+		<wp:post_date>2016-02-10 13:20:14</wp:post_date>
+		<wp:post_date_gmt>2016-02-10 12:20:14</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_content-3rd</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_56bb2ac89c389</wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_56bb2ac89c389";s:5:"label";s:11:"Treść - 3";s:4:"name";s:19:"content_3rd_content";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:7:"toolbar";s:4:"full";s:12:"media_upload";s:3:"yes";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:37:"page-templates/sqare-4col-c-c-c-c.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+		<title>Content - 4th</title>
+		<link>http://softboot.ki.usermd.net/?acf=acf_content-4th</link>
+		<pubDate>Wed, 10 Feb 2016 12:20:57 +0000</pubDate>
+		<dc:creator>szablon</dc:creator>
+		<guid isPermaLink="false">http://softboot.ki.usermd.net/?post_type=acf&#038;p=322</guid>
+		<wp:post_id>322</wp:post_id>
+		<wp:post_date>2016-02-10 13:20:57</wp:post_date>
+		<wp:post_date_gmt>2016-02-10 12:20:57</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>acf_content-4th</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>acf</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>field_56bb2b0d895ea</wp:meta_key>
+			<wp:meta_value><![CDATA[a:11:{s:3:"key";s:19:"field_56bb2b0d895ea";s:5:"label";s:11:"Treść - 4";s:4:"name";s:19:"content_4th_content";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:7:"toolbar";s:4:"full";s:12:"media_upload";s:3:"yes";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:2:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rule</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:37:"page-templates/sqare-4col-c-c-c-c.php";s:8:"order_no";i:0;s:8:"group_no";i:0;}]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>position</wp:meta_key>
+			<wp:meta_value><![CDATA[normal]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>layout</wp:meta_key>
+			<wp:meta_value><![CDATA[no_box]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hide_on_screen</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 </channel>
