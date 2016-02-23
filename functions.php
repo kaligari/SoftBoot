@@ -170,3 +170,28 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+//Pobiera galerię i rozbija na poszczególne obrazki
+function grab_ids_from_gallery($post_in = ''){
+  global $post;
+  $attachment_ids = array();
+  $pattern = get_shortcode_regex();
+  $ids = array();
+  if($post_in!='')
+    $content = $post_in->post_content;
+  else
+    $content = $post->post_content; 
+  
+  if(preg_match_all('/'.$pattern.'/s',$content,$matches)){    
+    $count=count($matches[3]);
+    for($i=0;$i<$count;$i++){
+      $atts = shortcode_parse_atts($matches[3][$i]);
+      if(isset($atts['ids'])){
+        $attachment_ids = explode(',',$atts['ids']);
+        $ids = array_merge($ids, $attachment_ids);
+      }
+    }
+  }
+  return $ids;
+}
+add_action( 'wp', 'grab_ids_from_gallery' );

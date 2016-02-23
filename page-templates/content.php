@@ -20,7 +20,7 @@
           </div>
           <?php endif; ?>
           <div class="col-md-12">
-            <?php the_content(); ?>
+            <?php the_content(); ?>   
           </div>      
       </div>
       </div>
