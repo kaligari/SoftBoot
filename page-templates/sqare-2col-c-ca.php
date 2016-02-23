@@ -8,7 +8,7 @@
   <?php $text_color = get_field('content_settings_text_color'); if(!empty($text_color)) echo 'color:'.$text_color.';'; ?>"   
   >
   
-    <article class="unit">
+    <article>
       
       <div class="container-fluid">
                        
@@ -32,7 +32,15 @@
         <div class="col-md-6 no-padding">
           <div class="square-box">
             <div class="square-box-inner no-padding">
-              
+              <div class="content"> 
+                <div class="<?php the_field('content_position_content_position'); ?>">
+                  <div class="content">                          
+                    <div class="col-md-12">              
+                      <?php the_field('content_2nd_content'); ?>
+                    </div>                                               
+                  </div>
+                </div>
+              </div>
               <?php include 'snippet-carousel.php'; ?>
             
             </div>

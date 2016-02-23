@@ -54,9 +54,6 @@ function isMobile($detect){
 //Dodaje taksonomię Opcje Strony
 add_action( 'init', 'theme_options_taxonomy' );
 
-//Ładuje obiekt do obsługi formatowania menu Bootstrap 3
-//require_once('lib/wp_bootstrap_navwalker.php');
-
 //Pobiera thumbnail ze wskazanego postu. Jako drugi argument przyjmuje informację o wersji mobilnej
 function the_thumbnail($page_id,$is_mobile = false,$size = ''){
   if($is_mobile&&$size!=''){
@@ -170,3 +167,28 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
+
+//Pobiera galerię i rozbija na poszczególne obrazki
+function grab_ids_from_gallery($post_in = ''){
+  global $post;
+  $attachment_ids = array();
+  $pattern = get_shortcode_regex();
+  $ids = array();
+  if($post_in!='')
+    $content = $post_in->post_content;
+  else
+    $content = $post->post_content; 
+  
+  if(preg_match_all('/'.$pattern.'/s',$content,$matches)){    
+    $count=count($matches[3]);
+    for($i=0;$i<$count;$i++){
+      $atts = shortcode_parse_atts($matches[3][$i]);
+      if(isset($atts['ids'])){
+        $attachment_ids = explode(',',$atts['ids']);
+        $ids = array_merge($ids, $attachment_ids);
+      }
+    }
+  }
+  return $ids;
+}
+add_action( 'wp', 'grab_ids_from_gallery' );

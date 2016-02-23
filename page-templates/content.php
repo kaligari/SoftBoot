@@ -5,7 +5,7 @@
   style="<?php $background_color = get_field('content_settings_background_color'); if(!empty($background_color)) echo 'background-color:'.$background_color.';'; ?>
   <?php $text_color = get_field('content_settings_text_color'); if(!empty($text_color)) echo 'color:'.$text_color.';'; ?>"   
   >
-    <article class="unit"
+    <article class="<?php if(get_field('height')!='') echo ' unit '; ?>"
     <?php if(get_field('height')) echo 'data-height="'.(get_field('height')/100).'"'; ?>
     >
       <?php if(get_field('fullwidth_fullwidth')): ?>
@@ -20,7 +20,7 @@
           </div>
           <?php endif; ?>
           <div class="col-md-12">
-            <?php the_content(); ?>
+            <?php the_content(); ?>   
           </div>      
       </div>
       </div>
