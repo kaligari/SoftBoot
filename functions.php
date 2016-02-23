@@ -54,9 +54,6 @@ function isMobile($detect){
 //Dodaje taksonomię Opcje Strony
 add_action( 'init', 'theme_options_taxonomy' );
 
-//Ładuje obiekt do obsługi formatowania menu Bootstrap 3
-//require_once('lib/wp_bootstrap_navwalker.php');
-
 //Pobiera thumbnail ze wskazanego postu. Jako drugi argument przyjmuje informację o wersji mobilnej
 function the_thumbnail($page_id,$is_mobile = false,$size = ''){
   if($is_mobile&&$size!=''){
