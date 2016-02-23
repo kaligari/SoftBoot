@@ -1,4 +1,7 @@
-      <div id="carousel-<?php echo $post->post_name ?>" class="carousel slide relative
+<?php
+  $carousel_name = $post->post_name;
+?>
+      <div id="carousel-<?php echo $carousel_name ?>" class="carousel slide relative
           <?php if(get_field('image',$post->ID)): ?>
           image
           <?php the_field('image_parallax_type'); ?>"
@@ -41,10 +44,10 @@
                     
               for($i=0;$i<$carousel_item_count;$i++)
                 if($i==0)
-                  echo '<li data-target="#carousel-'.$post->post_name.'" data-slide-to="'.$i.'" class="active"></li>
+                  echo '<li data-target="#carousel-'.$carousel_name.'" data-slide-to="'.$i.'" class="active"></li>
                   ';
                 else                                                    
-                  echo '<li data-target="#carousel-'.$post->post_name.'" data-slide-to="'.$i.'"></li>
+                  echo '<li data-target="#carousel-'.$carousel_name.'" data-slide-to="'.$i.'"></li>
                   ';
               
               echo '</ol><div class="carousel-inner" role="listbox">';
@@ -59,12 +62,12 @@
                 <?php endwhile; ?>
               <?php endif; wp_reset_query(); ?>
           
-          <a class="left carousel-control" href="#carousel-<?php echo $post->post_name ?>" role="button" data-slide="prev" onclick="$('#carousel-<?php echo $post->post_name ?>').carousel('prev')">
+          <a class="left carousel-control" href="#carousel-<?php echo $carousel_name ?>" role="button" data-slide="prev" onclick="$('#carousel-<?php echo $carousel_name ?>').carousel('prev')">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
           
-          <a class="right carousel-control" href="#carousel-<?php echo $post->post_name ?>" role="button" data-slide="next" onclick="$('#carousel-<?php echo $post->post_name ?>').carousel('next')">
+          <a class="right carousel-control" href="#carousel-<?php echo $carousel_name ?>" role="button" data-slide="next" onclick="$('#carousel-<?php echo $carousel_name ?>').carousel('next')">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
