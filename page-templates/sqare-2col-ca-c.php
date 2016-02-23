@@ -3,8 +3,9 @@
   <?php
     $post_id = $post->ID;
     $post_content = apply_filters('the_content', $post->post_content);
+    $post_title = $post->post_title;
   ?>       
-   
+      
   <section id="<?php echo $post->post_name ?>"
   <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo 'class="'.$custom_class.'"'; ?>
   style="<?php $background_color = get_field('content_settings_background_color'); if(!empty($background_color)) echo 'background-color:'.$background_color.';'; ?>
@@ -40,10 +41,10 @@
                 <div class="content">
                   <?php if(!get_field('content_settings_hide_title',$post_id)): ?>
                   <div class="col-md-12 page-header">
-                    <h1 class="text-center"><?php the_title(); ?></h1>
+                    <h1 class="text-center"><?php echo $post_title; ?></h1>
                   </div>
                   <?php endif; ?>
-                  <?php echo $post_content ?>                     
+                  <?php echo $post_content; ?>                     
                 </div>
               </div>
             </div>
