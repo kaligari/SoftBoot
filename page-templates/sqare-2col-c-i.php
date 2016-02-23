@@ -5,7 +5,7 @@
   style="<?php $background_color = get_field('content_settings_background_color'); if(!empty($background_color)) echo 'background-color:'.$background_color.';'; ?>
   <?php $text_color = get_field('content_settings_text_color'); if(!empty($text_color)) echo 'color:'.$text_color.';'; ?>"   
   >
-    <article class="unit">      
+    <article>      
       <div class="container-fluid">
                     
         <div class="col-md-6 no-padding">
