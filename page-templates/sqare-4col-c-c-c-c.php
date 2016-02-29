@@ -21,16 +21,48 @@
           </div>
           
           <div class="col-md-3">
-            <?php the_content(); ?>
+            <div class="square-box">
+              <div class="square-box-inner">      
+                <div class="middle">
+                  <div class="content">
+                    <?php the_content(); ?>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-md-3">
-            <?php the_field('content_2nd_content'); ?>       
+            <div class="square-box">
+              <div class="square-box-inner">      
+                <div class="middle">
+                  <div class="content">
+                    <?php the_field('content_2nd_content'); ?>
+                  </div>
+                </div>
+              </div>
+            </div>       
           </div>
           <div class="col-md-3">
-            <?php the_field('content_3rd_content'); ?>       
+            <div class="square-box">
+              <div class="square-box-inner">      
+                <div class="middle">
+                  <div class="content">
+                    <?php the_field('content_3rd_content'); ?>
+                  </div>
+                </div>
+              </div>
+            </div>       
           </div>
           <div class="col-md-3">
-            <?php the_field('content_4th_content'); ?>       
+            <div class="square-box">
+              <div class="square-box-inner">      
+                <div class="middle">
+                  <div class="content">
+                    <?php the_field('content_4th_content'); ?>
+                  </div>
+                </div>
+              </div>
+            </div>       
           </div>
 
       </div>
