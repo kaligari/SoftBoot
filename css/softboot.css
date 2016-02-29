@@ -248,6 +248,16 @@ body {
   float:left;
 }
 
+.aligncenter:not(table){
+  margin:0 auto;
+  display:block;
+}
+
+table.aligncenter{
+  margin:0 auto;
+  display:table;
+}
+
 /* WP GALLERY */
 .gallery .gallery-item {
   position: relative;
