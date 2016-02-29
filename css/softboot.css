@@ -51,7 +51,9 @@ body {
 }
 
 .template-square-2col-ca-c .container-fluid,
-.template-square-2col-c-ca .container-fluid{
+.template-square-2col-c-ca .container-fluid,
+.template-square-2col-i-c .container-fluid,
+.template-square-2col-c-i .container-fluid{
   padding:0;
 }
 
