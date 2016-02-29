@@ -38,6 +38,7 @@
       });
     }
   </script>
-  <section id="<?php echo $post->post_name ?>">
+  <section id="<?php echo $post->post_name ?>"
+  class="template-google-map <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo $custom_class; ?> ">
     <article id="gmap" class="unit" <?php if(get_field('height')) echo 'data-height="'.(get_field('height')/100).'"'; ?> ></article>
   </section>                                             

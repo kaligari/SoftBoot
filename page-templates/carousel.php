@@ -1,7 +1,7 @@
 <?php /* Template Name: Carousel */ ?>
   
   <section id="<?php echo $post->post_name ?>"
-  <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo 'class="'.$custom_class.'"'; ?> >
+  class="template-carousel <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo $custom_class; ?> ">
   
     <article class="unit relative" <?php if(get_field('height')) echo 'data-height="'.(get_field('height')/100).'"'; ?> >
     

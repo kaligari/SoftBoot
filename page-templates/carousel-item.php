@@ -1,6 +1,6 @@
 <?php /* Template Name: Carousel Item */ ?>
 
-  <div class="item image <?php if($carousel_item_active) echo 'active'; ?>
+  <div class="item template-carousel-item image <?php if($carousel_item_active) echo 'active'; ?>
     <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo $custom_class; ?>
     <?php the_field('image_parallax_type'); ?>"
     <?php if(get_field('height')) echo 'data-height="'.(get_field('height')/100).'"'; ?>
