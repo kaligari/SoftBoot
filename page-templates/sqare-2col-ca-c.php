@@ -44,7 +44,9 @@
                     <h1 class="text-center"><?php echo $post_title; ?></h1>
                   </div>
                   <?php endif; ?>
-                  <?php echo $post_content; ?>                     
+                  <div class="col-md-12">
+                    <?php echo $post_content; ?>
+                  </div>                     
                 </div>
               </div>
             </div>

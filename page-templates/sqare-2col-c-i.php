@@ -18,7 +18,9 @@
                     <h1 class="text-center"><?php the_title(); ?></h1>
                   </div>
                   <?php endif; ?>
-                  <?php the_content(); ?>                                    
+                  <div class="col-md-12">
+                    <?php the_content(); ?>
+                  </div>                                    
                 </div>
               </div>
             </div>
@@ -30,7 +32,9 @@
             <div class="square-box-inner">      
               <div class="<?php the_field('content_position_content_position'); ?>">
                 <div class="content">
-                  <?php the_field('content_2nd_content'); ?>                                    
+                  <div class="col-md-12">
+                    <?php the_field('content_2nd_content'); ?>
+                  </div>                                    
                 </div>
               </div>
             </div>

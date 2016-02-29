@@ -22,7 +22,9 @@
                     <h1 class="text-center"><?php the_title(); ?></h1>
                   </div>
                   <?php endif; ?>
-                  <?php echo $post_content ?>                     
+                  <div class="col-md-12">
+                    <?php echo $post_content ?>
+                  </div>                     
                 </div>
               </div>
             </div>
