@@ -206,6 +206,7 @@ body {
 
 .square-box{
   padding:0;
+  position:relative;
 }
 
 .square-box.image{
