@@ -32,8 +32,42 @@
                     <h1 class="text-center"><?php the_title(); ?></h1>
                   </div>
                   <?php endif; ?>
-                  <?php the_content(); ?>
-                  FORM <!-- TO DO -->                                    
+                  <div class="col-md-12">
+                    <?php the_content(); ?>
+                    <br /><br />
+                  </div>
+                  <div class="col-md-12">
+                    <form role="form">
+                    
+                      <div class="form-group">
+                        <label for="subject">Temat:</label>
+                        <input type="text" class="form-control" id="subject">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="name">Imię i nazwisko / Nazwa firmy:</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="telephone">telefon (nie jest wymagany)</label>
+                        <input type="text" class="form-control" id="telephone">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="content">informacje dodatkowe</label>
+                        <textarea class="form-control" id="content"></textarea>
+                      </div>
+                      
+                      <button type="submit" class="btn btn-default">Wyślij zapytanie</button>
+                         
+                    </form>
+                  </div>                          
                 </div>
               </div>
             </div>
