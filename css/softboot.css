@@ -324,6 +324,10 @@ table.aligncenter{
 }
 /* Eof WP GALLERY */
 
+.mobile-only {
+	display: none!important
+}
+
 @media only screen and (max-width:992px){
   .image-no-fullwidth.parallax-fixed{
     background-position: center center !important;
@@ -331,6 +335,12 @@ table.aligncenter{
     background-size: cover;
     background-attachment:local; 
   }
+  .desktop-only {
+  	display:none !important;
+  }
+  .mobile-only {
+  	display:block !important;
+  } 
 }
 
 @media only screen and (max-width:768px){
