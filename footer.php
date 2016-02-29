@@ -13,8 +13,7 @@
           <div class="col-md-3">
             <?php dynamic_sidebar( 'footer-4' ); ?>
           </div>
-          <div class="col-md-12 powered text-center">
-            <div class="separator"></div>
+          <div class="col-md-12 powered text-center">            
             <p>&copy; Wszelkie prawa zastrzeżone. Powered by <a href="http://www.kolorowyinternet.pl/">Ki</a></p>
           </div>
         </div>
