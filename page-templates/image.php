@@ -1,6 +1,8 @@
 <?php /* Template Name: Image */ ?>
 
-  <section id="<?php echo $post->post_name ?>" <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo 'class="'.$custom_class.'"'; ?> >    
+  <section id="<?php echo $post->post_name ?>"
+  class="template-image <?php $custom_class = get_field('custom_class'); if(!empty($custom_class)) echo $custom_class; ?>">
+      
     <article
     class="unit image relative <?php the_field('image_parallax_type'); ?>"
     <?php if(get_field('height')) echo 'data-height="'.(get_field('height')/100).'"'; ?>
