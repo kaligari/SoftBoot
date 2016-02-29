@@ -50,7 +50,8 @@ body {
   text-align: center;
 }
 
-.container-fluid{
+.template-square-2col-ca-c .container-fluid,
+.template-square-2col-c-ca .container-fluid{
   padding:0;
 }
 
