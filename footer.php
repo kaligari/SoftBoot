@@ -27,9 +27,14 @@
     <!-- <script src="<?php bloginfo( 'template_url' ); ?>/js/scripts.min.js"></script> -->
     <script src="<?php bloginfo( 'template_url' ); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/softboot.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/swiper.min.js"></script>
     <script src="<?php bloginfo( 'template_url' ); ?>/js/cookies.js"></script>    
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php bloginfo( 'template_url' ); ?>/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    <?php echo $GLOBALS['gallery_swipers']; ?>
+    </script>
     <script> 
       var $buoop = {vs:{i:10,f:30,o:20,s:7},c:2}; 
       function $buo_f(){ 

@@ -322,6 +322,23 @@ table.aligncenter{
 .gallery .gallery-item:hover .gallery-icon img {
   transform: scale(1.1);
 }
+
+/* SWIPER GALLERY */
+.unit .swiper-container{
+  height:100%;
+}
+.swiper-slide {
+  background: #000; 
+}
+.unit .swiper-slide img{
+  display: block;
+  width: 100vw;
+  height: inherit;
+  object-fit: cover;
+}
+
+/* SWIPER GALLERY */
+
 /* Eof WP GALLERY */
 
 .mobile-only {

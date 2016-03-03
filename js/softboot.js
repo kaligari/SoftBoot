@@ -85,7 +85,7 @@ jQuery(function(){
     /* BOOTSRTAP MENU */    
     
     //przygotuj tablicę elementów animate dla funkcji w scrollu    
-    animateItems = $('.animate').toArray();                    
+    animateItems = $('.animate').toArray();                                     
   }
 
   function animateElement(singleElement,duration){
